@@ -1,0 +1,88 @@
+______________________________________________________________________________
+INICIALIZANDO A "FISCALIZAÇÃO" NO TERMINAL
+1. identifique-se:
+
+    git config --global user.name "Seu Nome"
+    git config --global user.email "seu-email@exemplo.com"
+    git config --global init.defaultBranch main
+
+  obs: Use o mesmo e-mail que você usa na sua conta do GitHub.
+
+2. caminhe até a pasta do repositório
+    cd lions
+
+3. inicialize o git (vai "monitorar" seu projeto)
+    git init
+
+4. crie o arquivo .gitignore 
+   escreva dentro dele o nome das pastas ou arquivos que você não quer que o mundo veja
+   obs: coloquei um exemplo do gemini no arquivo gitignore.txt
+        touch .gitignore
+
+5. Preparar: git add . (O ponto indica que você quer adicionar TUDO).
+        git add .
+
+6. Verificar: git status (Os arquivos devem estar em verde).
+        git status
+
+7. Salvar: git commit -m "Mensagem clara explicando o que você fez"
+______________________________________________________________________________
+OBS: 
+se deu ruim, pra "resetar tudo" coloque este comando no TERMINAL
+     git rm -r --cached .
+__________
+OBS2:
+para mim apareceu este erro de autenticação em uma parte, mas não me lembro qual.
+ caso apareça, precisará criar um token de autenticação.
+
+"Authentication failed"	O GitHub não aceitou sua senha.	Use um Token (PAT) ou Chave SSH em vez da senha do site.
+
+No GitHub: Settings (clica na sua foto) -> Developer Settings (lá no fim da lista à esquerda).
+
+    Personal access tokens -> Tokens (classic).
+
+    Generate new token (classic).
+
+    Dê um nome (ex: "meu-pc"), marque a caixinha 'repo' e clique em gerar.
+
+    COPIE o código que aparecer. Ele é sua "senha" para o terminal.
+
+Se o git push pedir senha agora, cola esse código!
+
+______________________________________________________________________________
+
+CRIANDO UM REPOSITÓRIO
+1. Abra o gitHub e faça uma conta
+
+2. clique no + no canto superior direito(create new)
+
+3. clique em new repository
+
+4. escolha um nome pro repositório em Repository name
+
+5. escreva uma descrição do repositório
+
+6. escolha a visibilidade do seu repositório em Choose visibility (public/private)
+
+7. sobre o readme, gitignore e license, deixarei um doc com as anotações do gemini explicando sobre(notasrecursos.txt)
+
+8. crie o repositório
+
+9. role a página até encontrar …or push an existing repository from the command line, geralmente ta no final
+
+10. os comandos que estão lá, você rodará no seu terminal:
+    Vincular: git remote add origin https://github.com/seu-usuario/nome-do-repo.git
+
+    Ajustar Branch: git branch -M main (Garante que o nome seja 'main' e não 'master').
+
+    Hora de mandar tudo para a nuvem: git push -u origin main
+
+
+______________________________________________________________________________
+para o dia a dia
+
+git add .: "Git, note que eu terminei o exercício do Módulo 2."
+
+git commit -m "Concluí exercício de arrays no Módulo 2": "Crie um ponto de salvamento com esse nome."
+
+git push: "Mande essa atualização lá para o meu GitHub."
