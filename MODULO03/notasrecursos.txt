@@ -1,0 +1,32 @@
+Recursos (gemini!)
+
+README	
+É a "capa" do seu livro.
+ Nele você explica o que é o projeto, como instalar e como usar. 
+ É o que as pessoas leem primeiro.
+
+.gitignore	
+É a lista de "proibidos". 
+Ele diz ao Git para ignorar pastas pesadas (como node_modules) ou arquivos com senhas.
+
+License	
+É o documento jurídico. 
+Diz se o seu código é livre, se alguém pode vender, ou se é totalmente protegido.
+
+1. Se você já tem os arquivos no seu PC 
+
+Não adicione nada agora. Deixe tudo desmarcado.
+
+    Por que? Se você marcar o README no site, o GitHub vai criar um arquivo que não existe no seu computador. Quando você tentar dar o push, o Git vai reclamar que "as histórias são diferentes" e vai dar um erro de merge.
+
+    O que fazer: Crie o repositório vazio, suba seus arquivos e, depois que tudo estiver lá, você cria o README no seu computador e sobe como um arquivo comum.
+
+2. Se o projeto é 100% novo (Pasta vazia no PC)
+
+Aí sim, você pode marcar!
+
+    README: Recomendo marcar. Ele já deixa o repositório com uma cara profissional.
+
+    .gitignore: Recomendo marcar e escolher o modelo (ex: "Node" ou "Python"). Isso já te poupa o trabalho de criar o arquivo na mão.
+
+    License: Só adicione se você for tornar o projeto público e quiser que outras pessoas saibam se podem ou não usar seu código (a licença MIT é a mais comum e amigável).

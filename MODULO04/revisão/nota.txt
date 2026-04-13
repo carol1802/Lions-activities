@@ -1,0 +1,10 @@
+oi... faltei por umas 2 semanas e perdi muita coisa. 
+agora, to participando de uma revisão de tudo. 
+não escreverei tudo pq a 1a parte da revisão ja está escrita aq em algum lugar.
+
+o módulo 4 é sobre:
+    - calculadora
+    - git e github(que assim que eu estudar, deixarei na pasta do mód 3)
+    - modularização de aplicações
+
+Estudarei sobre html e css também, baseado na calculadora.
