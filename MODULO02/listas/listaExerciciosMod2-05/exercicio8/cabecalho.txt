@@ -1,0 +1,8 @@
+8. Gestão de Capacidade de Servidor
+Crie uma entidade representando um servidor com nome, espaço total (em GB) e espaço já
+ocupado (em GB), faça em números inteiros.
+Crie uma função que receba esse servidor inteiro como parâmetro, junto com o tamanho de um
+novo arquivo que se deseja salvar. A função deve analisar a situação: se o espaço ocupado
+somado ao novo arquivo for menor ou igual ao espaço total, atualize o espaço ocupado do
+servidor e retorne verdadeiro (sucesso). Caso ultrapasse, não altere os dados e retorne falso
+(falha). Avalie o retorno fora da função para avisar o usuário se o upload foi aceito ou rejeitado.

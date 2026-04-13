@@ -1,0 +1,259 @@
+Com o intuito de sair da zona de conforto, não farei apenas uma calculadora como os cursos introdutórios.
+Farei uma calculadora com HTML e CSS, visando em expandir meus conhecimentos.
+
+
+ESTRUTURA DO CÓDIGO
+______________________________________________
+INTERFACE
+______________________________________________
+números de 0 a 9
+vírgula ou ponto para decimais
+parênteses
+% para porcentagem
+simbolo de divididos  / 
+multiplicação x
+subtração -
+adição +
+número negativo ou positivo +/-
+limpar C
+
+botao histórico
+______________________________________________
+
+usuário vai:
+clicar nos botoes para escrever a operação
+quando clicar no igual, aparecerá o resultado na tela.
+
+______________________________________________
+
+botão de números e operadores:
+armazena num vetor o valor do botao
+exemplo: se botao 1 foi pressionado, vetor[proximo espaço] = 1
+irá fazer este processo até que o botao de igual seja pressionado
+quando o botao de igual for pressionado, começa a conta.
+conta tava igual a 0 -> se a conta fosse uma string e pudesse mudar string pra operação seria show
+abre um loop para pegar os elementos do vetor
+conta = conta + vetor[i] 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DEPOIS...
+_____________________________________________________________________________________________
+botao conversor de unidade
+    -> de saída e de entrada
+    Área
+        Acres(ac)
+        Ares(a)
+        Hectares(ha)
+        Centímetros quadrados (cm²)
+        Pés quadrados(ft²)
+        Polegadas quadradas (in²)
+        Metros quadrados (m²)
+
+    Comprimento
+        Milímetrros (mm)
+        Centímetros (cm)
+        Metros (m)
+        Quilômetros (km)
+        Polegadas (in)
+        Pés (ft)
+        Jardas (yd)
+        Milhas (mi)
+        Milhas náuticas (NM)
+        Mils (mil)
+
+    Temperatura
+        Celsius (C)
+        Fahrenheit (F)
+        Kelvin (K)
+
+    Volume
+        Galões(Reino Unido)(gal)
+        Galões(EUA)(gal)
+        Litros (l)
+        Milimetros (ml)
+        Centímetros cúbicos(cc)(cm³)
+        Metros cúbicos (m³)
+        Polegadas cúbicas (in³)
+        Pés cúbicos (ft³)
+    
+    Massa
+        Toneladas(t)
+        Toneladas(Reino Unido)(t)
+        Libras(lb)
+        Onças(oz)
+        Quilogramas(kg)
+        Gramas (g)
+    
+    Dados
+        Bits (bit)
+        Bytes (B)
+        Kilobytes (KB)
+        Kibibytes(KiB)
+        Megabytes(MB)
+        Mebibytes(MiB)
+        Gigabytes(GB)
+        Gibibytes(GiB)
+        Terabytes(Terabytes)
+        Tebibytes (TiB)
+
+    Velocidade
+        Metros por segundo(/s)
+        Metros por hora(/h)
+        quilometros por segundo(/s)
+        quilometros por hora(/h)
+        polegadas por segundo(/s)
+        polegadas por hora(/h)
+        pés por segundo (/s)
+        pés por hora(/h)
+        milhas por segundo(/s)
+        milhas por hora (/h)
+        nós (kn)
+
+    Tempo
+        milissegundos
+        segundos
+        minutos
+        horas
+        dias
+        semanas
+
+botao expandir pra calculadora científica
+    Rad / Deg
+    seno
+    cosseno
+    tangente
+    log  natural (ln)
+    log
+    1/x
+    e elevado a x e^x 
+    potencia de 2  x²
+    potencia de y  x^y
+    módulo de x |x|
+    pi
+    e
+
+
+______________________________________________
+HANDS-ON
+______________________________________________
+
+1o -> fazer 3 arquivos
+    calculadora.html
+    calculadora.css 
+    calculadora.js
+
+divisão de funções de cada um dos arquivos:
+
+    calculadora.html
+        div.calculator  -> visor e botoes
+        div.display -> expressão sendo montada e resultado final
+        button -> eventos onClick dos botões, passa número ou símbolo como argumento
+
+    calculadora.css 
+        display: grid -> "malha" de botoes -> 4 colunas
+        box-shadow -> efeito de profundidade dos botoes
+        tarnsition   e   :active   -> animações do clique
+
+    calculadora.js
+        addNumero(num)
+        addOperador(op)
+        limpar()
+        inverterSinal()
+        calcular()   -> math.evaluate
+        adicionarAoHistorico()
+
+
+______________________________________________
+HTML 
+//obs: não sei como fazer comentários no html entao nas anotações estarão com // igual no js
+
+//documento e linguagem do documento
+<!DOCTYPE html>
+<html lang="pt-BR"> 
+
+//"cabeça", mostra infos iniciais do projeto
+<head>
+    <meta charset="UTF-8">
+
+    //width = the measurement or extent of something from side to side.
+
+    //initial-scale==1.0
+        //A initial-scale=1.0 é uma propriedade que controla o nível de amplificação quando a página é carregada pela primeira vez. Esse valor é usado para que o site web se enquadre proporcionalmente nas telas de celulares, pois sem esse valor, o site no celular fica com os elementos minúsculos, impedindo o usuário ter uma boa navegação. Assim, uma página web em que foi definida a meta tag como initial-scale=1, irá ser renderizada o mais próximo do tamanho físico possível dos celulares.
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Titulo do projeto</title>
+
+    //href = hypertext reference -> he href attribute specifies the URL of the page the link goes to. If the href attribute is not present, the <a> tag will not be a hyperlink.
+    //o "href" vem de referência, ele indica onde está o arquivo que você quer importar, que pode ser um arquivo dentro de uma pasta no seu computador, por exemplo: "href"="/estilos/styles.css", ou também uma URL da internet.
+    //rel = vem de relacionamento. ele diz qual é a função do arquivo que você está importando
+    //"stylesheet" é um tipo de rel, e o mais usado
+    //outros tipos de rel: "preconnect", "alternate", "author", "bookmark", "icon" , ... 
+    <link rel="stylesheet" href="nomedodocumentodocss.css">
+
+    //ANOTAÇÃO IMPORTANTE, FORA DA BASE TRADICIONAL:
+     
+        //ÍCONE 
+            //-> Importando uma imagem para aparecer como ícone na guia do navegador.
+    <link rel="icon" type="image/png" href="icone.png">
+    
+        //FONTE
+        //-> Pegando uma fonte diferente na API do Google Fonts:
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+// BODY
+    //body é a estrutura em si, separado em divs(divisões)
+<body>
+    <header> 
+         //O elemento HTML <header> representa um grupo de suporte introdutório ou navegacional. 
+        
+        <h1>FONTE ENORME, Título principal</h1>
+        
+        <nav>Menu de Navegação</nav>
+            // representa uma seção de uma página que aponta para outras páginas ou para outras áreas da página, ou seja, uma seção com links de navegação.
+
+    </header>
+    
+
+
+    //main é a função principal, não pode conter outra igual.
+    <main> 
+
+        //representa uma seção genérica contida em um documento HTML, geralmente com um título, quando não existir um elemento semântico mais específico para representá-lo.
+        <section>
+        
+            //FONTES:
+            //sessão de conteúdo = h
+            <h2>fonte grande mas menor...</h2>
+            <h3>e assim vai</h3>
+            <h4>ate chegar</h4>
+            <h5>no mínimo,</h5>
+            <h6>que é o h6 </h6>
+                // <h1>–<h6> representam seis níveis de título de seção. <h1> é o nível de seção mais alto e <h6> é o mais baixo.
+
+            //parágrafo
+            <p>paragrafo generico</p>
+        </section>
+
+        //OBS:
+            // Se faz sentido distribuir separadamente o conteúdo de um elemento <section>, use um elemento <article> em seu lugar.
+
+    </main>

@@ -1,0 +1,73 @@
+no terminal...
+
+carol@userroot-MS-7D46:~/carol/lions/modulo02-2$ npm init -y
+Wrote to /home/carol/carol/lions/modulo02-2/package.json:
+
+{
+  "name": "modulo02-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
+
+
+carol@userroot-MS-7D46:~/carol/lions/modulo02-2$ npm install prompt-sync
+
+added 3 packages, and audited 4 packages in 444ms
+
+found 0 vulnerabilities
+carol@userroot-MS-7D46:~/carol/lions/modulo02-2$ touch interatividade.js
+
+
+obs!!!!!!!!!!!!!!!!!!!1
+no package.json, colocar ,"type": "module":
+{
+  "name": "modulo02-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }, "type": "module"           <--------------------------
+}
+
+
+o código em si:
+ import PromptSync from "prompt-sync"
+ const prompt = PromptSync()
+ let nome = prompt("Qual é seu nome?")
+ let cidade = prompt("Qual é a sua cidade?")
+ console.log("Olá, " + nome + " , da cidade " + cidade)
+
+ ______________________________________________________
+ stdin -> entrada dos dados
+ stdout -> saída dos dados
+
+
+let entradaUsuario = '';
+
+process.stdin.on('data', function (data) {
+entradaUsuario = data.toString()
+    console.log("Voce digitou: ", entradaUsuario)
+    process.stdout.wite('ola mundoz\n'+entrada)
+    process.exit()
+ })
+
+ _________________
+ "joao" + nome
+ INTERRPOLAÇÃO
+ "joão ${nome}"
+ __________________

@@ -1,0 +1,8 @@
+2. Validador de Acesso Rápido
+Um sistema precisa de uma validação ágil de credenciais. Crie uma função no formato de uma
+arrow function que receba o nome de um usuário e o código do seu crachá.
+A regra para liberar o acesso é: o nome precisa ter mais de 5 letras E o código do crachá deve
+ser maior que 1000. A função deve analisar esse cenário e retornar verdadeiro caso a regra
+seja atendida, ou falso caso contrário. Peça os dados no terminal (use uma forma de entrada
+de dados, prompt-sync, stdin ou readline), execute a função e, dependendo do retorno,
+exiba "Acesso Concedido" ou "Acesso Negado".

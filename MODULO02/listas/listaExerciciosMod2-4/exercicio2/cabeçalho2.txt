@@ -1,0 +1,16 @@
+2. Calibração de Sensores Industriais
+Uma máquina de montagem industrial precisa calibrar seus sensores térmicos registrando uma
+sequência de 5 leituras. Peça ao operador para informar um valor de temperatura inicial. A partir
+desse valor de partida, utilize um laço for para registrar e exibir as próximas 5 calibragens no
+painel, incrementando a temperatura em 2 graus a cada novo passo. Mostre claramente na tela cada
+um dos 5 valores gerados ao longo do processo.
+
+
+
+//mont industrial.js
+//prrompt
+//temperaturaInicial = prompt
+//temperaturas = []
+//for let i=1, i<5, i++
+// temperaturas[i] = temperaturaInicial+2
+//console.log(temperaturas)

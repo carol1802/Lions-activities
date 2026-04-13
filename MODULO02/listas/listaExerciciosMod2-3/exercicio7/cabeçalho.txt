@@ -1,0 +1,12 @@
+7. Controle de Imigração Governamental
+Crie a ficha de um passageiro internacional recém-chegado. A ficha deve conter o nome , a
+nacionalidade , se ele está a trabalho ( boolean ) e uma lista contendo exatamente dois
+documentos que ele apresentou (exemplo: documento no índice 0 é o "Passaporte", no índice 1 é o
+"Visto").
+A alfândega exige uma terceira comprovação de saúde. Peça ao fiscal qual o terceiro documento
+apresentado (ex: "Certificado de Vacina") e coloque-o como último item desta lista. A regra de
+liberação estrita diz: Se o passageiro não for do Brasil, ele deve ter obrigatoriamente um "Visto" na
+segunda posição da lista E o documento da terceira posição não pode ser vazio. Caso ele seja do
+Brasil, ele é liberado apenas verificando se possui "Passaporte" no índice 0. Adicione uma
+propriedade "Entrada Permitida" (true ou false) com base nessa complexa validação e exiba todo o
+objeto imigratório.

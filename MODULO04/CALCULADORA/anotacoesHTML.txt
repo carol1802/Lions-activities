@@ -1,0 +1,97 @@
+HTML 
+_____________________________________________________
+o código:
+_____________________________________________________
+<!DOCTYPE html>
+<html lang="pt-BR"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titulo do projeto</title>
+    <link rel="stylesheet" href="nomedodocumentodocss.css">
+</head>
+_____________________________________________________
+
+notes:
+_____________________________________________________
+
+
+
+
+
+//obs: não sei como fazer comentários no html entao nas anotações estarão com // igual no js
+
+//documento e linguagem do documento
+<!DOCTYPE html>
+<html lang="pt-BR"> 
+
+//"cabeça", mostra infos iniciais do projeto
+<head>
+    <meta charset="UTF-8">
+
+    //width = the measurement or extent of something from side to side.
+
+    //initial-scale==1.0
+        //A initial-scale=1.0 é uma propriedade que controla o nível de amplificação quando a página é carregada pela primeira vez. Esse valor é usado para que o site web se enquadre proporcionalmente nas telas de celulares, pois sem esse valor, o site no celular fica com os elementos minúsculos, impedindo o usuário ter uma boa navegação. Assim, uma página web em que foi definida a meta tag como initial-scale=1, irá ser renderizada o mais próximo do tamanho físico possível dos celulares.
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Titulo do projeto</title>
+
+    //href = hypertext reference -> he href attribute specifies the URL of the page the link goes to. If the href attribute is not present, the <a> tag will not be a hyperlink.
+    //o "href" vem de referência, ele indica onde está o arquivo que você quer importar, que pode ser um arquivo dentro de uma pasta no seu computador, por exemplo: "href"="/estilos/styles.css", ou também uma URL da internet.
+    //rel = vem de relacionamento. ele diz qual é a função do arquivo que você está importando
+    //"stylesheet" é um tipo de rel, e o mais usado
+    //outros tipos de rel: "preconnect", "alternate", "author", "bookmark", "icon" , ... 
+    <link rel="stylesheet" href="nomedodocumentodocss.css">
+
+    //ANOTAÇÃO IMPORTANTE, FORA DA BASE TRADICIONAL:
+     
+        //ÍCONE 
+            //-> Importando uma imagem para aparecer como ícone na guia do navegador.
+    <link rel="icon" type="image/png" href="icone.png">
+    
+        //FONTE
+        //-> Pegando uma fonte diferente na API do Google Fonts:
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+// BODY
+    //body é a estrutura em si, separado em divs(divisões)
+<body>
+    <header> 
+         //O elemento HTML <header> representa um grupo de suporte introdutório ou navegacional. 
+        
+        <h1>FONTE ENORME, Título principal</h1>
+        
+        <nav>Menu de Navegação</nav>
+            // representa uma seção de uma página que aponta para outras páginas ou para outras áreas da página, ou seja, uma seção com links de navegação.
+
+    </header>
+    
+
+
+    //main é a função principal, não pode conter outra igual.
+    <main> 
+
+        //representa uma seção genérica contida em um documento HTML, geralmente com um título, quando não existir um elemento semântico mais específico para representá-lo.
+        <section>
+        
+            //FONTES:
+            //sessão de conteúdo = h
+            <h2>fonte grande mas menor...</h2>
+            <h3>e assim vai</h3>
+            <h4>ate chegar</h4>
+            <h5>no mínimo,</h5>
+            <h6>que é o h6 </h6>
+                // <h1>–<h6> representam seis níveis de título de seção. <h1> é o nível de seção mais alto e <h6> é o mais baixo.
+
+            //parágrafo
+            <p>paragrafo generico</p>
+        </section>
+
+        //OBS:
+            // Se faz sentido distribuir separadamente o conteúdo de um elemento <section>, use um elemento <article> em seu lugar.
+
+    </main>

@@ -1,0 +1,13 @@
+1. Lista de Presença
+Para organizar um evento acadêmico, crie um array chamado listaAlunos que já comece com
+dois nomes preenchidos em formato de texto.
+Peça ao usuário para digitar o nome de um terceiro aluno que acabou de chegar. Adicione esse novo
+nome ao final do array. Em seguida, verifique a quantidade de alunos registrados. Caso a lista tenha
+exatamente 3 alunos, exiba no console: "Turma formada com sucesso! Alunos: [listaAlunos]".
+
+
+prompt sync
+let listaAlunos = ['João', 'Maria']
+let novoAluno = prompt("Novo aluno:")
+listaAlunos[listaAlunos.lenght+1]=novoAluno
+console.log(listaAlunos)

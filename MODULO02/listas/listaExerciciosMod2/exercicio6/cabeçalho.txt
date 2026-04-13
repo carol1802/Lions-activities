@@ -1,0 +1,11 @@
+6. Gestão de Ponto e Horas Extras
+Desenvolva um sistema simples de RH. Peça ao usuário para informar o seu valor ganho por hora
+normal e a quantidade de horas extras trabalhadas no mês. A regra da CLT diz que a hora extra
+vale 50% a mais que a hora normal (ou seja, hora normal * 1.5). Calcule o valor total a receber
+apenas pelas horas extras e exiba na tela: "O valor a receber de horas extras este mês é: R$
+[valor]".
+
+valor ganho por hoa normal
+qtd horas extras no mes
+hora extra  igual a 1.5 da normal
+valor total apenas horas extras

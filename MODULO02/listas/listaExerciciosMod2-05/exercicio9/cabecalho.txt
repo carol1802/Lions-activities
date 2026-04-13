@@ -1,0 +1,8 @@
+9. Roteamento de Chamados de TI
+Crie uma rotina que atue como triagem de chamados. Ela deve receber a criticidade de um
+problema técnico (níveis 1, 2 ou 3).
+Avalie a criticidade com seleção de casos. Nível 1 retorna o setor "Atendimento Básico". Nível 2
+retorna "Equipe Especializada". Nível 3 retorna "Gestão de Crise". Crie uma lista vazia de "Fila
+de Atendimento". Peça ao usuário a criticidade de um novo problema, descubra o setor
+responsável usando sua função e adicione o nome desse setor ao final da lista. Mostre a lista
+atualizada.

@@ -1,0 +1,29 @@
+2. Tracker de Atletas Profissionais
+Um aplicativo de saúde monitora o exercício de corredores. Crie o registro de um atleta contendo o
+nome, peso atual, uma meta ("Emagrecimento" ou "Performance") e uma lista com as distâncias
+percorridas nas últimas três maratonas.
+Peça ao usuário para atualizar a distância corrida de hoje. Insira essa nova distância no final da lista.
+Agora, calcule a quilometragem média do corredor usando apenas os três últimos registros da lista
+(ignorando o mais antigo). Se a média for acima de 20 km E a meta for "Emagrecimento", reduza o
+peso atual do atleta em 1 kg e adicione um selo "Meta Atingida" no registro. Se a meta for
+"Performance" e a corrida de hoje for maior que a corrida anterior, crie o selo "Novo Recorde
+Pessoal". Exiba o perfil atualizado.
+
+atleta = {
+    nome:,
+    pesoAtual:,
+    meta:,
+    distancias:[],
+
+    addDistancia(distancia){
+        this.distancias.push(distancia)
+    }
+}
+
+while(true){
+    distancias=parseInt(prompt("Qual o valor do produto? 0 para sair"))
+    if (distancias==0){
+        break
+    }
+    atleta.addDistancia(distancias)
+}

@@ -1,0 +1,24 @@
+4. Sistema de Lanchonete de Fast Food
+Para automatizar opções de cardápio virtual (totem em autoatendimento), crie o registro de um
+pedido virtual contendo o nome do cliente, o valor base de um hambúrguer premium (exemplo: R$
+30,00), a quantidade de lanches comprados e uma lista vazia para "Ingredientes Extras" (como
+"Bacon", "Cheddar", etc.).
+Peça ao usuário para digitar o nome de dois ingredientes extras desejados e o valor unitário de cada
+extra. Adicione as strings (apenas os nomes) na lista de extras. Some os valores dos extras ao
+cálculo: (valor base do hambúrguer + valor extra 1 + valor extra 2) *
+quantidade . Se a lista de extras conter exatamente 2 itens E o cliente levar mais de 2 lanches,
+aplique um desconto automático de 20% no valor total do pedido. Exiba o subtotal e o valor total na
+tela com a lista de ingredientes.
+
+let pedidoVirtual ={
+    nomeCliente:
+    hamburguerPremium:
+    qtdLanchesComprados:
+    ingredientesExtas: []
+
+    função addIngredienteExtra(nome, valorUnitario){}
+
+    função valorTotal(){
+        hamburguerPremium+extras
+    }
+}

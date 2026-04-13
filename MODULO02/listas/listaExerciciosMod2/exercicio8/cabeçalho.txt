@@ -1,0 +1,14 @@
+8. Cálculo de Frete Logístico
+Uma transportadora calcula o frete com uma taxa fixa de R$ 20,00 mais R$ 1,50 por quilômetro
+rodado. Peça ao usuário para informar a distância em km até o cliente e pergunte: "A entrega é
+considerada de risco ou urgente? (sim/nao)". Calcule o valor base do frete. Regra de negócio: se a
+distância for maior que 100 km OU se a entrega for classificada como urgente, o sistema deve
+adicionar uma taxa extra de R$ 15,00 no valor final. Exiba o custo total do frete no console.
+
+const frete 20
+total frete  = frete + 1.5 x km rodado
+distancia em km
+risco sim ou nao
+
+SE distancia maiorr q 100 OU urgente, taxa extra de 15 no valor final
+exibe custo total

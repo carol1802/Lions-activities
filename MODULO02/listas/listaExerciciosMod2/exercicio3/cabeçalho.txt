@@ -1,0 +1,6 @@
+3. Rendimento de Fundos Imobiliários
+Crie um simulador de investimentos. Peça ao usuário para digitar a quantidade de cotas que ele
+possui de um fundo imobiliário e o valor do dividendo (rendimento) pago por cada cota neste mês.
+Calcule o rendimento total. Se o valor recebido for maior ou igual a R$ 100,00, exiba "Você já tem
+saldo suficiente para comprar uma nova cota e reinvestir!". Caso contrário, exiba "Rendimento
+recebido: R$ [valor]. Acumule mais para reinvestir.".

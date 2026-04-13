@@ -1,0 +1,7 @@
+6. Sistema de Pontuação de Games
+Crie uma arrow function que receba a lista de pontuações de um jogador nas últimas três
+partidas.
+A função deve somar os três valores. Caso a soma total ultrapasse 200 pontos OU a última
+partida registrada (a que fica na ponta final da lista) tenha sido maior que 90 pontos, a função
+deve retornar a palavra "Veterano". Do contrário, retorna "Iniciante". Capture três pontuações do
+usuário, monte a lista e passe para a função, exibindo a classificação final.

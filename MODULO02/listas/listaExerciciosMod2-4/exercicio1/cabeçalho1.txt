@@ -1,0 +1,22 @@
+1. Autenticação de Cofre Digital
+Um sistema de segurança bancária exige uma senha numérica para liberar o acesso a um cofre de
+alta segurança. Defina uma senha correta no sistema (por exemplo, 9876 ). Peça ao segurança para
+
+inserir a tentativa de senha. Enquanto a senha inserida não for exatamente igual à senha pré-
+estabelecida, o painel deve exibir "Acesso negado: Senha incorreta" e solicitar a digitação
+
+novamente. Assim que a senha correta for fornecida, interrompa a verificação e exiba "Cofre
+liberado com sucesso".
+
+//prompt
+// //novasenha!
+//senha = prompt
+// //novousuario!!
+//usuario = prompt
+//clear
+//insira seu nome:
+//insira sua senha:
+//if usuario = tal, senha = tel -> objeto? ou classe?
+//while tentativa senha != senha 
+//  senha incorreta, tente novamente
+//  prompt tentativa senha

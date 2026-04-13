@@ -1,0 +1,9 @@
+Na aula de hoje, vimos sobre funções e as atividades dos slides se baseiam em refazer as atividades anteriores, implementando funções.
+Mas, já havia feito as atividades anteriores utilizando funções da forma "tradicional". 
+Aprendi que há outro modo de fazê-las em js, o jeito "moderno":
+
+const somar = (a, b) => {
+return a + b;
+};
+
+esta forma será aplicada às atividades da lista 5, voltada a aplicação de funções e do comando switch

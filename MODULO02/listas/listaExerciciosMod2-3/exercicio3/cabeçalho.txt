@@ -1,0 +1,23 @@
+3. Programa de Milhas Aéreas
+Crie o perfil de fidelidade de um cliente vip de uma companhia aérea comercial contendo o nome e
+um histórico de viagens. O histórico deve ser uma lista e começar com dois voos já realizados (cada
+voo deve ser um objeto contendo o destino e a quantidade de milhas acumuladas daquela
+viagem).
+Peça ao usuário para registrar um terceiro voo (destino e milhas) e adicione à lista. Calcule a soma
+de todas as milhas acumuladas na lista de histórico. Regra de upgrade: se a soma de milhas passar
+de 5.000, diminua 5.000 milhas do saldo (como se ele tivesse resgatado), insira uma propriedade no
+perfil do cliente chamada "Categoria" com o valor "Platinum" e exiba um alerta parabenizando. Caso
+
+array_objetos2.md 2026-03-10
+
+/
+
+não tenha milhas suficientes, mantenha a "Categoria" como "Gold" e exiba quantas milhas faltam
+para o upgrade. Mostre o objeto final.
+
+objeto clienteVip
+nome
+categoria premium-> parabens gold->milhas p upgrade
+historico de viagens []
+função de add voo a historico push
+se a soma das milhas passar de 5mil diminua 5mil do saldo 

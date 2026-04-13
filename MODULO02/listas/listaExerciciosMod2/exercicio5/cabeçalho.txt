@@ -1,0 +1,19 @@
+5. Análise de Risco de Crédito Bancário
+Para aprovar um empréstimo, a parcela não pode comprometer mais do que 30% da renda do cliente.
+Peça ao usuário para digitar o seu salário líquido, o valor da parcela do empréstimo desejado e
+pergunte: "O cliente possui restrição no nome? (sim/nao)". Calcule o limite de 30% do salário. Use
+if/else com operadores lógicos para verificar: se a parcela for menor ou igual ao limite de 30% E
+
+if_else.md 2026-03-04
+
+/
+
+NÃO houver restrição no nome, exiba "Crédito Aprovado!". Caso a parcela ultrapasse o limite OU o
+cliente tenha restrição, exiba "Crédito Negado: Parcela acima do limite ou restrição no CPF".
+
+salarioLiquido int
+valor parcela int
+restricao true/false
+se valor da parcela for >30%salario,  credito Negado
+se restricao true credito Negado
+se valor parcela < 30%salario e restricao false credito Aprovado

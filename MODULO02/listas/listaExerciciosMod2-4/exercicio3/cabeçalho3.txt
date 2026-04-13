@@ -1,0 +1,9 @@
+3. Totem de Pedidos Contínuos
+Um restaurante fast-food quer automatizar seu totem de autoatendimento para que os clientes
+montem seus combos sem interrupção. O sistema deve capturar o valor de um item do cardápio e
+somá-lo ao total da compra atual. Após registrar esse item, pergunte ao cliente: "Deseja adicionar
+mais algum item? (sim/nao)". O sistema deve obrigatoriamente registrar o primeiro item (utilizando
+do-while ) e, em seguida, continuar aceitando novos valores e somando ao total de forma
+contínua, enquanto a resposta do cliente for "sim". Ao finalizar, exiba o valor total a ser pago.
+
+obs: exercicio reutilizado da lista 2, com mudanças.

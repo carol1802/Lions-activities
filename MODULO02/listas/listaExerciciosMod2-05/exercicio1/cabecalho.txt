@@ -1,0 +1,9 @@
+1. Calculadora de Bônus de RH
+Crie uma função que receba duas informações: o nível do cargo de um funcionário e o seu
+salário atual.
+Dentro dessa função, utilize uma estrutura de seleção de casos para avaliar o nível do cargo.
+Caso seja "Estagiário", calcule um bônus de 10% sobre o salário. Caso seja "Júnior", o bônus é
+de 15%. Para "Pleno", 20%. Para qualquer outro caso não mapeado, o bônus deve ser zero. A
+função deve devolver (retornar) o valor final do bônus. Fora da função, peça para o usuário
+digitar os dados, acione a função e exiba o resultado.
+

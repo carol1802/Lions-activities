@@ -1,0 +1,11 @@
+3/3/2026
+
+diminuir 1:
+let numeroAlunos = 58
+numeroAlunos-- 
+numeroAlunos -= 1
+
+aumentar 1:
+numeroAlunos++
+numeroAlunos += 1
+

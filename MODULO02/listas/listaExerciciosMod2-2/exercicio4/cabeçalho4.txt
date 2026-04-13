@@ -1,0 +1,23 @@
+4. Orçamento de Projetos
+Uma agência de software está montando sua fila de orçamentos. Comece criando um array vazio
+chamado filaProjetos . Peça ao usuário para digitar o nome de uma empresa cliente e o valor
+estimado do projeto em reais.
+
+array_objetos.md 2026-03-08
+
+/
+
+Crie um objeto contendo essas duas informações ( cliente e valorEstimado ) e insira esse
+objeto dentro do array filaProjetos . Em seguida, pergunte ao usuário: "O projeto possui prazo
+de entrega urgente? (sim/nao)". Se a resposta for "sim" E o valor do projeto for maior que R$
+3.000,00, acesse o objeto dentro do array e adicione uma taxa extra de 15% ao valor do projeto.
+Exiba no console o array final contendo o objeto atualizado.
+
+let filaProjetos = []
+nome e valo estimado do projeto double prompt
+let projeto ={}
+filaProjetos.push(projeto)
+
+prazo urgente? sim/nao
+if sim e valor >3000, taxa extra de 15%no valorr
+exiba array

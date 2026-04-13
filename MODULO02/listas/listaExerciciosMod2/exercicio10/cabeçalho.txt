@@ -1,0 +1,17 @@
+10. Multa por Atraso no Condomínio
+O sistema financeiro de uma administradora de condomínios precisa calcular boletos atrasados. Peça
+ao morador para informar o valor original do condomínio, a quantidade de dias de atraso e pergunte:
+"O vencimento original caiu em um feriado ou final de semana? (sim/nao)". Se os dias de atraso
+forem maiores que zero E o vencimento não tiver sido em um feriado ou final de semana, adicione
+uma multa fixa de 2% sobre o valor original, além de R$ 1,00 de juros para cada dia de atraso. Caso
+não haja atraso real (0 dias ou exceção de feriado), o valor permanece o mesmo. Exiba o valor
+atualizado do boleto.
+
+valor original condomínio
+qtd dias atraso
+const multa fixa 0.02
+const valorJuroPorDia = 1
+vencimento original ferriado ou fim de semana? s/nao
+SE dias de atrarso>0 E vencimento =nao no find
+    add multa fixa * valor original + valorJuroPorDia * qtd dias atraso
+    senao, permanece o mesmo

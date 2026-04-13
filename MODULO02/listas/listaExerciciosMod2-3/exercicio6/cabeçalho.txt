@@ -1,0 +1,12 @@
+6. Sistema de Segurança de Voo / Aeronave Doméstica
+O painel elétrico de uma aeronave monitora o funcionamento das turbinas. Crie a entidade de uma
+turbina contendo seu lado (ex: "Motor Esquerdo"), um status (ex: "Desligado") e uma lista contendo
+exatamente três leituras críticas dos sensores: a primeira sendo a temperatura atual (graus
+Celsius), a segunda a pressão do óleo (PSI) e a terceira o nível de combustível (porcentagem).
+Peça ao mecânico de voo para inserir três novos valores de sensores atualizar o painel. Substitua
+diretamente as leituras antigas na lista pelos novos números. A trava de segurança de acionamento
+funciona da seguinte forma: o status da turbina só pode ser alterado dinamicamente para "Ligado" se
+o nível de combustível for maior que 20%, E a pressão for maior que 50 PSI, E a temperatura estiver
+entre 20 e 90 graus. Caso qualquer um desses limites vitais seja violado, mude o status para "Falha
+Crítica" e adicione uma nova propriedade ao objeto chamada bloqueioAtivado: true . Mostre o
+painel atualizado no final.                                                                                                                                                                                                                                                                                                     

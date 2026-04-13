@@ -1,0 +1,21 @@
+6. Desafio Final: Fechamento de Caixa do E-commerce
+Um e-commerce está processando os carrinhos de compras pendentes no fim do dia. Você possui
+um registro (array de objetos) contendo três carrinhos: cada um tem o nome do cliente e uma lista
+(array) de preços dos produtos.
+Exemplo da estrutura de dados:
+
+const carrinhos = [
+{ cliente: "João", produtos: [50.0, 120.5, 15.0] },
+{ cliente: "Maria", produtos: [200.0, 45.9] },
+{ cliente: "Carlos", produtos: [10.0, 5.5, 32.0, 8.0] }
+];
+
+Para cada carrinho, siga as etapas (dica: você pode usar forEach para iterar sobre os carrinhos):
+1. Calcule o valor total devido somando todos os preços dos produtos daquele cliente.
+2. Inicie o sistema de pagamento: peça ao operador para informar o valor em dinheiro recebido. O
+sistema deve continuar solicitando pagamentos (em um laço) até que a soma dos valores
+recebidos seja maior ou igual ao total da compra.
+3. Se o total pago for maior que o devido, informe o valor do troco.
+4. Ao concluir todos os carrinhos, exiba um relatório confirmando os nomes dos clientes que
+concluíram o pagamento com sucesso.
+

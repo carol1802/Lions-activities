@@ -1,0 +1,13 @@
+4. Monitoramento Climático
+Um laboratório de robótica armazena as temperaturas do dia
+ em uma lista. Crie uma arrow
+function chamada avaliarTemperaturas que receba uma lista
+ de três valores numéricos.
+A função deve calcular a média desses três valores. Caso 
+a média seja superior a 30 graus, a
+função deve retornar o texto "Alerta de Aquecimento". Caso
+ seja 30 graus ou menos, deve
+retornar "Clima Estável". No programa principal, peça ao
+ usuário para digitar três temperaturas,
+guarde-as em uma lista, repasse essa lista para a arrow 
+function e exiba a resposta dela.

@@ -1,0 +1,40 @@
+let x = 5
+
+Atribuição
+x = 6
+x=5
+
+Igualdade de valor
+x==5 ->true
+x=='5' ->true
+
+Igualdade de valo e tipo
+x ===5 -> true
+x === '5' ->false
+
+Diferença de valor e tipo
+x!=6 ->true
+x!= '6' -> false
+x!=5 -> false
+_________________
+
+Maior
+x > 5 false
+x > 3 true
+
+Menor
+x < 5 false
+x < 6 true
+
+Maior ou Igual
+x >= 3 true 
+x >= 5 true
+
+Menor ou Igual
+x <= 5 true
+x <= 3 false
+
+_________________
+|| ou
+&& e
+_________________

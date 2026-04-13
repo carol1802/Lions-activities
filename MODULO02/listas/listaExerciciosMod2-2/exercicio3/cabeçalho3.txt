@@ -1,0 +1,13 @@
+3. Ficha Médica Veterinária
+Vamos criar a ficha de um paciente em uma clínica veterinária. Peça ao usuário para digitar o nome
+de um cachorro e a sua raça. Em seguida, peça para digitar a idade do animal.
+Crie um objeto vazio chamado paciente . Adicione a esse objeto três propriedades: nome , raca
+e idade , atribuindo a elas os valores que o usuário digitou. Agora, avalie os dados da ficha: se a
+idade for maior OU igual a 8 anos, exiba "O paciente [nome] já é sênior e precisa de exames de
+rotina.". Caso não seja, exiba "Paciente na faixa de idade regular.". Por fim, exiba o objeto completo
+no console.
+
+prompt  nome raça e idade
+objeto vazio paciente 
+se idade>= 8: senior e rotina, se nao, idade regular
+exiba objeto

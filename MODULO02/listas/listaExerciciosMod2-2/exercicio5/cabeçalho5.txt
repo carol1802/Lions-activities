@@ -1,0 +1,24 @@
+5. Estação de Monitoramento
+Um sensor meteorológico precisa registrar e processar variações climáticas. Crie um objeto chamado
+estacao com as propriedades id (ex: "Sensor-01"), local (ex: "Laboratório") e
+temperaturas (um array vazio).
+Peça ao usuário para digitar três leituras de temperatura ao longo do dia, uma de cada vez. Adicione
+cada temperatura digitada ao array temperaturas que está dentro do objeto estacao .
+Após capturar os três dados, acesse o array dentro do objeto e calcule a média das três temperaturas
+(somando os três valores e dividindo por 3). Regra de negócio do sistema: Caso a média calculada
+seja maior que 35 graus, crie dinamicamente uma nova propriedade no objeto chamada alerta
+com o valor true e exiba "PERIGO: Média de temperatura extrema ([media] graus) detectada no
+[local]!". Caso a média seja de 35 graus para baixo, crie a propriedade alerta com valor false e
+exiba "Temperaturas dentro da normalidade.". No final, imprima o objeto estacao inteiro para
+provar que todas as propriedades e o array estão corretos.
+
+let estacao = {
+    id: "Sensor-01",
+    local: "Laboratório",
+    temperaturas: [],
+
+    for(let i = 3, i>0, i--){
+        this.temperaturas.push(parseInt(prompt("")))
+
+    }
+}

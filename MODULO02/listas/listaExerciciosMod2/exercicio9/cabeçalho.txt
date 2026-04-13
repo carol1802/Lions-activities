@@ -1,0 +1,10 @@
+9. Sistema de Comissão de Vendas
+Uma loja de eletrônicos paga comissão de acordo com o desempenho. Peça ao vendedor para digitar
+o valor total em vendas que ele realizou no mês.
+Se ele vendeu R$ 20.000,00 ou mais, sua comissão é de 5% sobre o valor total.
+Se ele vendeu menos de R$ 20.000,00, a comissão cai para 2%. Calcule o valor da comissão e
+mostre na tela.
+
+valor total em vendas do mes
+se 20 000 ou + ->comissao=5%valor total
+se menos -> comissao = 2%valortotal

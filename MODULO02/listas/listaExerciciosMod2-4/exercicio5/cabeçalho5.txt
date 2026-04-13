@@ -1,0 +1,38 @@
+5. Carregamento de Frota Logística
+
+for_while_dowhile_forEach.MD 2026-03-15
+
+/
+
+Uma transportadora está organizando a carga de um caminhão que possui uma capacidade máxima
+estrita de 1000 kg. O estoquista começará a colocar caixas no veículo uma a uma. Peça
+repetidamente o peso de cada caixa que está sendo carregada e some ao peso acumulado do
+caminhão. Caso o peso de uma nova caixa faça o total ultrapassar a capacidade limite (1000 kg), o
+sistema deve exibir uma mensagem de alerta informando que a carga máxima foi atingida e
+interromper o carregamento imediatamente (sem adicionar a caixa que estourou o limite). Ao final,
+exiba o peso total carregado e informe quantas caixas foram alocadas com sucesso.
+
+prompt
+const capMax = 1000
+pesocaixa = prompt
+let soma=0
+let pesos = []
+
+while(pesocaixa !=0)
+
+   pesocaixa = prompt
+   soma += pesocaixa
+   if soma <1000{
+    console.log("Caixa adicionada")
+    pesos.push(pesocaixa)
+
+
+   }if soma ==1000{
+    console.log(esta no limite)
+   }else if(soma>100){
+    console.log("Não é possível add mais caixas.")
+    peso caixa = 0
+   }
+console.log("Foi possível adicionar pesos.lenght caixas.
+peso total: soma
+pesos em cada caixa: pesos)

@@ -1,0 +1,12 @@
+8. Gestão de Eventos para Festival de Música
+Para coordenar os ingressos VIPs de um festival, crie o pacote de um grupo corporativo contendo o
+nome da empresa , o orçamentoTotal da noite, uma chave booleana openBarFechado
+(inicie falsa) e uma lista vazia de consumoExtras (que guardará o nome das bebidas que os
+executivos pedirem fora do pacote).
+Peça ao promotor do evento para lançar o nome de duas bebidas importadas e o valor total que
+essas duas somadas custaram. Adicione as bebidas no array de extras. Verifique a planilha
+financeira: subtraia o valor gasto com essas bebidas do orçamentoTotal . Se após esse
+abatimento o saldo restante do orçamento for menor que R$ 0,00, altere a chave openBarFechado
+para true (cortando a bebida deles) e crie uma propriedade "Multa Excedente" de R$ 500,00 no
+registro. Se sobrar dinheiro, apenas atualize o orçamento restante. Imprima o fechamento financeiro
+do camarote.

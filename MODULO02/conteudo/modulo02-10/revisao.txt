@@ -1,0 +1,60 @@
+FERRAMENTAS -> PÁGINA 178
+
+    COMENTÁRIOS: 
+        // Para linhas
+        /*Para diferentes linhas*/
+        //Serve para instruções no código :)
+
+
+
+_________
+ENTRADA -> prompt-sync
+ALGORITMO: sequência de passos
+SAÍDA -> pra falar pro usuario oq ele precisa fazer -> console.log
+
+DEBUG
+    breakpoints
+    controle de fluxo de execução do código
+    controle do comportamento de variáveis
+
+VARIÁVEIS
+    elementos fundamentais que permitem armazenar e manipular dados em um programa
+    let variavel
+
+REQUISIÇÃO DO USUÁRIO
+    console.log("Pergunta")
+
+    const prompt = require('promp-sync')()
+        -> possibilita a entrada do usuario
+
+    nome=prompt().toString().trim() 
+        to string-> falar q é string
+        trim-> tirra espaços da esquerda e direita
+    
+    idade = parseInt(prompt().trim())
+        parseInt -> "transforma" em número inteiro
+
+FUNÇÃO
+    function nomeFuncao(parametros){função}
+    //chamar a função:
+    nomeFuncao(parametros)
+
+CONDICIONAL
+    fluxo lógico do programa
+    if(){}else{}
+    switch (troca){ 
+        case casodatroca: função
+        default: função }
+REPETIÇÃO
+    for
+    while
+    do while
+    ...
+
+OPERADORES MATEMÁTICOS
+    + - * / % += -+ -- ++    =   
+OPERADORES LÓGICOS 
+    < > == <= >=
+
+TIPOS DE dados  
+    string int float boolean array objeto

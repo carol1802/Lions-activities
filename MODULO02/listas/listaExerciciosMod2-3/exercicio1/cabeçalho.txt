@@ -1,0 +1,21 @@
+1. Carrinho de Compras de E-commerce
+Crie uma entidade que represente um carrinho de compras online, contendo o nome do cliente, o tipo
+de assinatura ("Prime" ou "Padrão") e uma lista de preços dos itens escolhidos. Essa lista deve
+começar vazia.
+Peça ao usuário para registrar o preço de três produtos diferentes, um de cada vez, e insira-os na
+lista do carrinho. Após os registros, calcule o valor total da compra somando os itens da lista. Aplique
+a seguinte regra de negócio: caso o total ultrapasse R$ 200,00 OU o cliente seja assinante "Prime",
+crie dinamicamente um selo de "Frete Grátis" ativado no carrinho e exiba uma mensagem de
+comemoração. Do contrário, adicione uma taxa fixa de R$ 30,00 ao total da compra e ative o selo
+como falso. Mostre o carrinho e o valor final a ser pago. 
+
+
+carrinhoCompras = {
+    cliente:
+    tipoAssinatura:
+    preçosProdutos:[]
+}
+
+function addProduto(valorProduto){
+    preçosProdutos.push(valorProduto)
+}

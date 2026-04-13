@@ -1,0 +1,9 @@
+5. Status de Encomenda Logística
+Crie uma função tradicional que atualize o rastreio de um pacote. Ela deve receber um código
+de status (letras como "P", "E", "C").
+Use uma seleção de casos para traduzir o código: "P" significa "Pendente de Envio", "E"
+significa "Em Rota de Entrega" e "C" significa "Cancelado". Qualquer outra letra deve resultar
+em "Status Inválido". Crie um registro (objeto) de uma encomenda contendo um ID e peça ao
+usuário qual o código do status atual. Chame a função passando esse código e salve o texto
+retornado como uma nova propriedade dentro do registro da encomenda (ou seja, dentro do
+objeto). Mostre como ficou o registro final.

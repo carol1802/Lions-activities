@@ -1,0 +1,27 @@
+OBJETOS
+É uma estrutura de dados que permite permite
+armazenar e organizar informações relacionadas.
+
+As propriedades de um objeto podem conter
+diferentes tipos.
+
+É composto por um conjunto de propriedades, onde
+cada propriedade possui um nome (chave) e um
+valor associado.
+
+As propriedades de um objeto podem ser acessadas e manipuladas
+ usando a notação de ponto (objeto.propriedade)
+
+
+É parecido com Array, mas tem funcionalidade diferente. O array tem
+uma listagem numerada, já o objeto tem uma listagem nomeada.
+
+Criando um Objeto
+
+let carro = {
+    fabricante: "Ford",
+    modelo: "Ka",
+    ano:2009
+}
+
+objetos podem ter métodos

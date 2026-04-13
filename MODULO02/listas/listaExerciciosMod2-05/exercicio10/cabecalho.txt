@@ -1,0 +1,13 @@
+10. O Grande Painel de Controle
+Crie um sistema central. Inicie com um registro de um "Caixa de Loja" contendo o nome do
+operador, o saldo inicial de R$ 100,00 e uma lista vazia de "Histórico de Transações".
+Crie duas funções separadas: uma chamada registrarVenda (que recebe o valor e soma
+ao saldo) e outra chamada registrarDespesa (que recebe o valor e subtrai do saldo).
+Ambas as funções devem devolver o novo saldo calculado.
+Exiba um menu perguntando a operação desejada: "V" para Venda ou "D" para Despesa. Utilize
+uma seleção de casos no programa principal para ler a escolha. Caso seja "V", peça o valor,
+acione a rotina de venda, atualize o saldo no registro do caixa e adicione a palavra "Entrada" na
+lista de histórico. Caso seja "D", peça o valor, acione a rotina de despesa, atualize o saldo e
+adicione "Saída" no histórico. Imprima o registro do caixa inteiro no final para auditoria.
+Lembrando, utilize um laço de repetição para criar este menu do usuário, é preciso ter uma
+opção para que ele pare de registrar as operações.

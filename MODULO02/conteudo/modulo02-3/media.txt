@@ -1,0 +1,29 @@
+main
+//pedir pro usuario as notas
+n1=prompt
+nota2=prompt
+
+//calcular a media
+calcularMedia(10,9)
+
+
+// imprimirr a media
+console.log(calcularMedia(10,9))//9.5
+console.log(calcularMedia(10,nota2))//7.5
+
+____________________
+function calcularMedia(nota1, nota2){
+    let qtdNotas = 2
+    let soma
+    let media
+    soma=nota1+nota2
+    media=soma/qtdNotas
+    return media //7.5
+}
+const calcularMedia = (nota1, nota2) => {
+
+}
+
+function calcularMedia(nota1, nota2){
+    
+}

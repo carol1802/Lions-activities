@@ -1,0 +1,37 @@
+MÓDULO 2 - JAVA SCRIPT
+var -> global
+let -> local
+const -> global
+
+-> camelCase
+-> UpperCamelCase
+-> snake_case
+
+console.log('Hello World')
+console.log(5+10)
+não precisa de ;
+no terminal: node helloWorld.js
+no console: ctrl + F5
+
+STRING
+let exemploString = 'oi'
+let ex2 = "teste"
+let ex3= 'oioi "oi"'
+let ex4 = "oioi 'oi'"
+ 
+ CONCATENAÇÃO DE STRING
+ let frase = "bom dia!"+ex3+"tudo bem?"
+ ____________________________________________
+
+ STDIN -> entrada
+ impot prompt from "prompt-sync"
+ const prompt = require('prompt-sync')()
+ let nome = prompt("Qual é seu nome")
+
+ ou 
+ process.stdin.on('data', function (data){
+    entradaUsuarrio = data.toSting();
+ }
+
+em package.json:
+ "type": "module"

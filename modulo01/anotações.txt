@@ -1,0 +1,8 @@
+ No terminal...
+npm init -y ->serve para baixar pacotes e inicializar o código e vai aparecer o package.json
+npm install hello-world-npm ->surgirao node_modules e package -lock.json
+dependencia:modulo utilizado no projeto 
+npm uninstall nome-do-pacote -> desinstala o pacote
+comando npx: npx nome-do-pacote
+
+npm install prompt-sync

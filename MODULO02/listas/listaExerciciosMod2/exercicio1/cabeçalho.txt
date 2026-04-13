@@ -1,0 +1,11 @@
+1. Margem de Lucro
+Uma fábrica produz componentes eletrônicos. 
+Peça ao usuário para digitar o custo de produção de
+um lote e o valor de venda desse mesmo 
+lote. Calcule o lucro bruto (venda - custo).
+ Se o lucro formenor que R$ 500,00, exiba
+  no console a mensagem 
+  "Atenção: Margem de lucro perigosamente
+baixa". Caso contrário, exiba
+ "Margem de lucro saudável: 
+ R$ [valor do lucro]".

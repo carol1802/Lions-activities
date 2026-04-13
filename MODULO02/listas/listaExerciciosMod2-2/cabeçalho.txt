@@ -1,0 +1,10 @@
+Exercícios com Lógica, Arrays e Objetos
+Turma: Lions Startups/LionsDev
+
+Tópicos: Arrays, Objetos, Estruturas Condicionais, Variáveis e Entrada/Saída de dados (prompt-
+sync).
+
+Dica: Lembrem-se que os dados capturados pelo prompt-sync vêm como formato de Texto
+(String). Para fazer contas matemáticas ou analisar limites de valores em regras de negócio, é
+muito importante converter a entrada para número (usando Number() , parseInt() ou
+parseFloat() ).

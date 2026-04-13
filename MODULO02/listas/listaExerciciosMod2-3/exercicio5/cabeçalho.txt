@@ -1,0 +1,26 @@
+5. Sistema de Mentoria Acadêmica
+Para organizar um programa de extensão universitária, crie a ficha de um projeto que contém o nome
+do coordenador, o limite máximo de vagas, a área de estudo (ex: "Tecnologia") e uma lista com
+objetos representando os mentores já confirmados (inicie com dois mentores, cada um tendo nome
+e areaDeAtuacao ).
+Peça ao usuário para tentar cadastrar um novo voluntário (nome e área de atuação). Regra
+corporativa: o cadastro só é permitido se a lista de mentores atual tiver menos participantes que o
+limite máximo de vagas E a área de atuação do novo voluntário for exatamente igual à área de estudo
+do projeto. Se aprovado, insira o objeto do novo mentor no array e mostre o projeto. Caso contrário,
+não adicione à lista e altere uma chave status do projeto para "Bloqueado para Inscrições".
+Imprima a ficha no console.
+mentor1 = {
+    nome:,
+    areaAtuacao:
+}
+mentor2 = {
+    nome:,
+    areaAtuacao:
+}
+fichadeprojeto ={
+    nomeCoordenador:,
+    limiteVagas:,
+    areaEstudo:,
+    mentores: [],
+
+}

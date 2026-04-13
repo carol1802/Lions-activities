@@ -1,0 +1,10 @@
+7. Alerta de Reposição de Estoque
+Um e-commerce precisa controlar seu inventário. Peça ao gerente para digitar a quantidade atual de
+um produto no estoque e a quantidade mínima de segurança. Se a quantidade atual for menor que a
+quantidade mínima, calcule a diferença e exiba "Alerta: Estoque baixo! É necessário solicitar a
+compra de [quantidade] unidades". Se estiver tudo certo, exiba "Estoque regularizado.".
+
+qtd atual produto no estoque
+qtd minima de segurança
+SE qtd atual<qtd minima
+calcular diferrença, se nao, estoque d boa

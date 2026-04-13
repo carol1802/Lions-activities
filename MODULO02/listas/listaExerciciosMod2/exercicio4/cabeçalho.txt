@@ -1,0 +1,10 @@
+4. Consumo de Automóvel
+Uma empresa precisa monitorar o consumo dos seus veículos com motor 170 TSI. Peça ao motorista
+para digitar a distância percorrida (em km) e a quantidade de combustível consumido (em
+litros). Calcule a média de consumo (km/l). Se a média for inferior a 10 km/l, exiba "Alerta: Veículo
+consumindo muito combustível. Necessário agendar revisão mecânica.". Se for 10 km/l ou mais,
+exiba "Consumo dentro do padrão operacional.".
+
+pede dist e qtd consumida em litros
+calcula media = diist/l
+SE media < 10 recebe rruim, se nao recebe bom

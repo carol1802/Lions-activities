@@ -1,0 +1,6 @@
+2. Orçamento de Projetos
+Uma empresa júnior de desenvolvimento de software cobra por hora de trabalho. Peça para o cliente
+digitar a quantidade de horas estimadas para um novo sistema web e pergunte: "O cliente é uma
+ONG? (sim/nao)". Considere que o valor da hora é R$ 45,00. Calcule o valor total do projeto. Se o
+projeto custar mais de R$ 5.000,00 E o cliente for uma ONG, aplique um desconto comercial de 10%
+e exiba o valor final. Caso contrário, exiba o valor sem desconto.

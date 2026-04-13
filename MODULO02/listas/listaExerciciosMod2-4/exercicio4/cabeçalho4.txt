@@ -1,0 +1,12 @@
+4. Atualização de Salários no RH
+O departamento de recursos humanos de uma empresa de tecnologia possui uma lista (array)
+contendo os salários atuais de cinco desenvolvedores: [2500, 3200, 4100, 5000, 6200] . O
+sindicato da categoria aprovou um reajuste de 10% que deve ser aplicado a todos os funcionários.
+Utilize um laço de repetição (como for ou forEach ) para percorrer o array de salários e aplicar o
+aumento de 10% sobre cada montante original. Após o recálculo, exiba a nova lista de salários
+atualizada no console.
+
+let salarios = [2500, 3200, 4100, 5000, 6200]
+console.log("Salários antigo..."+salarios)
+salarios.forEach(salario => salario*1.1)
+console.log("Salários atualizado..."+salarios)

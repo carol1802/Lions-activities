@@ -1,0 +1,14 @@
+3. Menu de Loja de Eletrônicos
+Crie o registro de um pedido de compra (um objeto) que comece apenas com o nome do
+cliente.
+Exiba um pequeno menu (para a criação de menus o comando switch é o mais indicado) no
+console com 3 opções de produtos (ex: 1 - Fone, 2 - Teclado, 3 - Mouse). Peça ao usuário para
+digitar o código numérico da sua escolha. Utilize uma seleção de casos para analisar esse
+código. Dependendo da escolha, adicione no registro do pedido duas novas propriedades: o
+
+switch_funções.md 2026-03-22
+
+2 / 4
+
+nome do produto escolhido e o seu preço fixo. Se o usuário digitar um código inválido, registre o
+produto como "Desconhecido" e valor zero. Imprima o registro final.
